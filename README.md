@@ -9,6 +9,8 @@ Image `golang`  | Image `blang/golang-alpine`
 ~515 MB         | ~204 MB
 GCC+Other weight| Bare
 
+Also check out my [blog post](https://www.blang.io/2015/04/19/golang-alpine-build-golang-binaries-for-alpine-linux.html) about this topic.
+
 ## Usage
 Like the base `golang` image
 
