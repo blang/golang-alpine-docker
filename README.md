@@ -1,6 +1,13 @@
 # Alpine linux golang docker image - 204MB
 
 Because alpine linux and therefor `gliderlabs/alpine` docker containers use musl instead gnu libc, your golang binaries build using libc will not work on alpine.
+There are two ways you can fix this:
+
+## Static linking
+```bash
+CGO_ENABLED=0 go build -a -installsuffix cgo
+```
+## Use this docker image
 
 Use this docker container to build your golang project for alpine linux.
 
