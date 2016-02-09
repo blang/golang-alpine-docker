@@ -13,7 +13,7 @@ Use this docker container to build your golang project for alpine linux.
 
 Image `golang`  | Image `blang/golang-alpine`
 --------------- | -------------
-~515 MB         | ~204 MB
+~515 MB         | ~281 MB
 GCC+Other weight| Bare
 
 Also check out my [blog post](https://www.blang.io/posts/2015-04_golang-alpine-build-golang-binaries-for-alpine-linux/) about this topic.
