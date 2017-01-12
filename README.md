@@ -1,3 +1,7 @@
+# DEPRECATED in favor the [official `golang` image](https://github.com/docker-library/golang)
+
+New golang official images are based on alpine as well.
+
 # Alpine linux golang docker image - 204MB
 
 Because alpine linux and therefor `gliderlabs/alpine` docker containers use musl instead gnu libc, your golang binaries build using libc will not work on alpine.
